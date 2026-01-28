@@ -1,0 +1,5 @@
+sample_id,character_name,novel_title,backstory,true_label,predicted_label,confidence,probabilities
+104,Noirtier,The Count of Monte Cristo,"His parents were targeted in a reprisal for supporting the Revolution; his mother was killed, deepening his distrust of authority.",1,0,0.5,"[0.5, 0.5]"
+128,Faria,The Count of Monte Cristo,"His invisible-ink formula came from temple-mural restoration in India, first used to rescue local epics the colonists had defaced.",1,0,0.63,"[0.63, 0.37]"
+120,Faria,The Count of Monte Cristo,"He invented a “salt-blood” ink that revealed under heat, used it to help a Corsican patriot escape, and was transferred to the more secure Château d’If for the trouble.",1,0,0.59,"[0.59, 0.41]"
+102,Noirtier,The Count of Monte Cristo,"During the Revolution he acted as a militant republican, attended major assemblies and helped organise trials of royalists.",1,0,0.61,"[0.61, 0.39]"

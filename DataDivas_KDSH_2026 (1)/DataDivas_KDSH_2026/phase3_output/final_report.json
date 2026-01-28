@@ -1,0 +1,98 @@
+{
+  "phase": "Phase 3 - Modeling, Evaluation & Validation",
+  "timestamp": "2026-01-08T18:32:19.407067",
+  "dataset_summary": {
+    "total_samples": 31,
+    "training_samples": 21,
+    "test_samples": 10,
+    "unique_characters": 2,
+    "unique_novels": 1,
+    "class_distribution": {
+      "class_0": 16,
+      "class_1": 15,
+      "balance_ratio": 0.4838709677419355
+    }
+  },
+  "feature_engineering": {
+    "feature_strategy": "TF-IDF + Metadata",
+    "total_features": 233,
+    "feature_sparsity": 0.7807071326384631
+  },
+  "model_performance": [
+    {
+      "Model": "Random Forest",
+      "Accuracy": 0.6,
+      "Precision": 0.7777777777777778,
+      "Recall": 0.6,
+      "F1-Score": 0.5238095238095238,
+      "ROC-AUC": 0.46,
+      "CV Mean F1": 0.4379370629370629,
+      "CV Std F1": 0.012612387612387616
+    },
+    {
+      "Model": "Logistic Regression",
+      "Accuracy": 0.5,
+      "Precision": 0.5,
+      "Recall": 0.5,
+      "F1-Score": 0.494949494949495,
+      "ROC-AUC": 0.56,
+      "CV Mean F1": 0.3280469530469531,
+      "CV Std F1": 0.09727772227772227
+    },
+    {
+      "Model": "XGBoost",
+      "Accuracy": 0.5,
+      "Precision": 0.5,
+      "Recall": 0.5,
+      "F1-Score": 0.494949494949495,
+      "ROC-AUC": 0.5,
+      "CV Mean F1": 0.31212121212121213,
+      "CV Std F1": 0.021212121212121182
+    },
+    {
+      "Model": "Gradient Boosting",
+      "Accuracy": 0.4,
+      "Precision": 0.22222222222222224,
+      "Recall": 0.4,
+      "F1-Score": 0.2857142857142857,
+      "ROC-AUC": 0.43999999999999995,
+      "CV Mean F1": 0.2849025974025974,
+      "CV Std F1": 0.0008116883116882911
+    }
+  ],
+  "best_model": {
+    "name": "Random Forest",
+    "test_accuracy": 0.6,
+    "test_f1": 0.5238095238095238,
+    "cv_mean_f1": 0.4379370629370629,
+    "cv_std_f1": 0.012612387612387616
+  },
+  "error_analysis": {
+    "total_errors": 4,
+    "error_rate": 0.4,
+    "false_positives": 0,
+    "false_negatives": 4
+  },
+  "files_saved": {
+    "model_pipeline": "phase3_output/random_forest_pipeline.pkl",
+    "model_metrics": "phase3_output/model_metrics.csv",
+    "error_analysis": "phase3_output/error_analysis.csv",
+    "performance_plot": "phase3_output/model_performance.png",
+    "error_plot": "phase3_output/error_analysis.png"
+  },
+  "acknowledged_limitations": [
+    "Limited training data for deep learning approaches",
+    "Simplified text representation (TF-IDF instead of transformers)",
+    "Fixed train/test split (no cross-novel validation)",
+    "Basic error analysis without qualitative examination of text",
+    "No hyperparameter tuning beyond basic defaults"
+  ],
+  "recommendations_for_improvement": [
+    "Collect more labeled data across diverse novels",
+    "Experiment with transformer-based embeddings (BERT, RoBERTa)",
+    "Implement cross-novel validation to test generalization",
+    "Add qualitative error analysis with human evaluation",
+    "Perform systematic hyperparameter tuning",
+    "Explore ensemble methods combining multiple models"
+  ]
+}

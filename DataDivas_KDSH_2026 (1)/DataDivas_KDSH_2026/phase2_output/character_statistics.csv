@@ -1,0 +1,3 @@
+character_name,total_passages,avg_passage_length,total_chars_extracted,action_count,dialogue_count,internal_count,negative_count,with_causal,with_emotional,temporal_range,avg_importance,avg_backstory_relevance,pronoun_ratio,direct_name_ratio,subject_ratio
+Faria,46,449.0217391304348,20655,19,0,2,25,30,22,0.022604354091680916,0.32391304347826094,0.583695652173913,1.0,0.0,0.0
+Noirtier,45,448.5111111111111,20183,19,0,2,24,29,22,0.022217066787978905,0.3244444444444445,0.5155555555555557,1.0,0.0,0.0

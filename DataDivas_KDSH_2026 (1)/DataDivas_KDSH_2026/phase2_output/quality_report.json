@@ -1,0 +1,48 @@
+{
+  "phase": "Phase 2 - Character Context Extraction",
+  "timestamp": "2026-01-08T16:26:13.268143",
+  "summary": {
+    "total_evidence_passages": 91,
+    "unique_characters": 2,
+    "avg_passages_per_character": 45.5,
+    "total_chars_extracted": 40838,
+    "avg_passage_length": 448.7692307692308
+  },
+  "evidence_quality": {
+    "causal_context_present": 0.6483516483516484,
+    "emotional_context_present": 0.4835164835164835,
+    "character_as_subject": 0.0,
+    "avg_narrative_importance": 0.3241758241758242,
+    "avg_backstory_relevance": 0.55
+  },
+  "evidence_type_distribution": {
+    "negative": 49,
+    "action": 38,
+    "internal": 4
+  },
+  "extraction_config": {
+    "min_window": 200,
+    "max_window": 1500,
+    "target_window": 600
+  },
+  "character_coverage": {
+    "Faria": 46,
+    "Noirtier": 45
+  },
+  "acknowledged_limitations": [
+    "Pronoun resolution without full coreference",
+    "Limited handling of name ambiguity across characters",
+    "Simplified grammatical role detection",
+    "Fixed context window sizes",
+    "Basic backstory relevance scoring"
+  ],
+  "success_metrics_achieved": [
+    "Temporal ordering preserved via position tracking",
+    "Causal markers explicitly extracted",
+    "Emotional context captured",
+    "Negative evidence specifically identified",
+    "Character actions prioritized",
+    "Backstory relevance calculated",
+    "Comprehensive metadata for Phase 3"
+  ]
+}
