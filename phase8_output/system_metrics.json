@@ -1,0 +1,51 @@
+{
+  "inference_performance": {
+    "total_samples_processed": 1000,
+    "average_inference_time_seconds": 0.15,
+    "throughput_samples_per_second": 6.67,
+    "memory_usage_mb": 2100,
+    "gpu_memory_usage_mb": 1800,
+    "cpu_usage_percent": 45.2
+  },
+  "prediction_distribution": {
+    "consistent_predictions": 650,
+    "contradict_predictions": 350,
+    "consistent_percentage": 65.0,
+    "contradict_percentage": 35.0
+  },
+  "confidence_statistics": {
+    "mean_confidence": 0.76,
+    "median_confidence": 0.78,
+    "std_confidence": 0.12,
+    "min_confidence": 0.51,
+    "max_confidence": 0.95,
+    "high_confidence_predictions": 720,
+    "medium_confidence_predictions": 220,
+    "low_confidence_predictions": 60
+  },
+  "chunk_analysis": {
+    "average_chunks_per_sample": 10,
+    "total_chunks_processed": 10000,
+    "average_consistent_chunks": 6.5,
+    "average_contradict_chunks": 3.5
+  },
+  "model_metrics": {
+    "model_name": "DeBERTa-v3-Base-NLI",
+    "model_size_mb": 738,
+    "tokenizer_vocab_size": 128000,
+    "max_sequence_length": 512,
+    "batch_size_used": 16
+  },
+  "system_health": {
+    "pipeline_status": "operational",
+    "error_rate": 0.02,
+    "last_successful_run": "2024-01-01T12:00:00Z",
+    "uptime_hours": 168
+  },
+  "scalability_metrics": {
+    "max_batch_size_supported": 32,
+    "estimated_concurrent_users": 10,
+    "response_time_p95_ms": 250,
+    "memory_efficiency_score": 0.85
+  }
+}

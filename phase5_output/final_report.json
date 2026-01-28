@@ -1,0 +1,24 @@
+{
+  "phase": "Phase 5 - Model Selection",
+  "timestamp": "2026-01-09T00:00:00.000000Z",
+  "selected_model": {
+    "name": "DeBERTa-v3-Base-NLI",
+    "huggingface_name": "microsoft/deberta-v3-base-nli",
+    "max_length": 512
+  },
+  "fallback_model": {
+    "name": "Longformer-Base-4096",
+    "huggingface_name": "allenai/longformer-base-4096",
+    "max_length": 4096
+  },
+  "chunking_strategy": {
+    "method": "sentence_aware",
+    "chunk_size": 384,
+    "overlap": 50,
+    "aggregation": "max_confidence_voting"
+  },
+  "files_saved": {
+    "model_selection": "phase5_output/model_selection.json",
+    "final_report": "phase5_output/final_report.json"
+  }
+}

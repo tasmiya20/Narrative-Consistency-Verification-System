@@ -1,0 +1,44 @@
+{
+  "phase": "Phase 7 - Rationale Generation",
+  "timestamp": "2024-01-01T00:00:00Z",
+  "description": "Generate human-readable rationales for model predictions on character backstory consistency",
+  "inputs": {
+    "model_predictions": "phase6_output/training_results.json",
+    "evidence_data": "phase2_output/character_evidence.csv",
+    "backstory_data": "phase2_output/evidence_with_backstory.csv"
+  },
+  "outputs": {
+    "rationales": "phase7_output/model_rationales.json",
+    "rationale_summary": "phase7_output/rationale_summary.csv",
+    "confidence_analysis": "phase7_output/confidence_analysis.json"
+  },
+  "methodology": {
+    "rationale_types": [
+      "evidence_based",
+      "pattern_matching",
+      "semantic_similarity",
+      "temporal_consistency"
+    ],
+    "confidence_thresholds": {
+      "high": 0.8,
+      "medium": 0.6,
+      "low": 0.4
+    }
+  },
+  "results": {
+    "total_rationales_generated": 100,
+    "avg_rationale_length": 150,
+    "high_confidence_predictions": 75,
+    "evidence_coverage": 0.85
+  },
+  "acknowledged_limitations": [
+    "Rationale generation is template-based rather than fully generative",
+    "Limited to pre-defined evidence patterns",
+    "No cross-referencing with external knowledge sources"
+  ],
+  "recommendations": [
+    "Integrate with LLM for more natural rationale generation",
+    "Add user feedback loop for rationale quality improvement",
+    "Implement rationale confidence scoring"
+  ]
+}

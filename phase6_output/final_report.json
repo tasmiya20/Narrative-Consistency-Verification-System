@@ -1,0 +1,12 @@
+{
+  "phase": "Phase 6 - Training",
+  "timestamp": "2026-01-09T00:00:00.000000Z",
+  "summary": {
+    "note": "Run the training notebook to populate results and model artefacts"
+  },
+  "files_saved": {
+    "best_model": "phase6_output/best_model.pt",
+    "training_history": "phase6_output/training_history.csv",
+    "training_results": "phase6_output/training_results.json"
+  }
+}

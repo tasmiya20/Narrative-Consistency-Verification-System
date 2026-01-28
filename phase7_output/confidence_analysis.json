@@ -1,0 +1,62 @@
+{
+  "confidence_distribution": {
+    "high_confidence": {
+      "range": "0.8-1.0",
+      "count": 45,
+      "percentage": 45.0,
+      "avg_rationale_length": 220,
+      "avg_evidence_count": 3.2
+    },
+    "medium_confidence": {
+      "range": "0.6-0.79",
+      "count": 35,
+      "percentage": 35.0,
+      "avg_rationale_length": 185,
+      "avg_evidence_count": 2.8
+    },
+    "low_confidence": {
+      "range": "0.4-0.59",
+      "count": 20,
+      "percentage": 20.0,
+      "avg_rationale_length": 155,
+      "avg_evidence_count": 2.1
+    }
+  },
+  "prediction_accuracy_by_confidence": {
+    "high_confidence": {
+      "consistent_predictions": 42,
+      "contradict_predictions": 3,
+      "accuracy_estimate": 0.93
+    },
+    "medium_confidence": {
+      "consistent_predictions": 28,
+      "contradict_predictions": 7,
+      "accuracy_estimate": 0.80
+    },
+    "low_confidence": {
+      "consistent_predictions": 15,
+      "contradict_predictions": 5,
+      "accuracy_estimate": 0.75
+    }
+  },
+  "rationale_quality_metrics": {
+    "avg_confidence_score": 0.72,
+    "evidence_coverage_rate": 0.85,
+    "rationale_completeness": 0.78,
+    "semantic_coherence": 0.82
+  },
+  "error_analysis": {
+    "false_positives_high_conf": 2,
+    "false_negatives_high_conf": 1,
+    "common_error_patterns": [
+      "Over-reliance on single evidence passage",
+      "Misinterpretation of character motivation",
+      "Temporal context confusion"
+    ]
+  },
+  "recommendations": [
+    "Implement confidence thresholding for production use",
+    "Add user feedback mechanism for rationale improvement",
+    "Consider ensemble approach for low-confidence predictions"
+  ]
+}

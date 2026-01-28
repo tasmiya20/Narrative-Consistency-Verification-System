@@ -1,0 +1,50 @@
+[
+  {
+    "sample_id": "sample_001",
+    "character_name": "Edmond Dantès",
+    "backstory": "A kind and forgiving man who never seeks revenge",
+    "prediction": 0,
+    "prediction_label": "CONTRADICT",
+    "confidence": 0.85,
+    "rationale": "The backstory describes Edmond Dantès as kind and forgiving, but the novel shows him plotting elaborate revenge against his betrayers. Evidence from chapters 15-20 shows his transformation into a vengeful figure, directly contradicting the forgiving nature described in the backstory.",
+    "evidence_citations": [
+      "Chapter 15: Edmond's oath of revenge",
+      "Chapter 18: Planning against Danglars",
+      "Chapter 20: Confrontation with Fernand"
+    ],
+    "rationale_type": "evidence_based",
+    "rationale_confidence": 0.9
+  },
+  {
+    "sample_id": "sample_002",
+    "character_name": "Jacques Paganel",
+    "backstory": "A brilliant geographer who is always precise",
+    "prediction": 1,
+    "prediction_label": "CONSISTENT",
+    "confidence": 0.72,
+    "rationale": "The backstory aligns with Paganel's character as a knowledgeable geographer. While he makes occasional mistakes, his overall expertise and precision in geographical matters is consistently portrayed throughout the novel.",
+    "evidence_citations": [
+      "Chapter 5: Accurate map readings",
+      "Chapter 12: Geographical explanations",
+      "Chapter 25: Navigation expertise"
+    ],
+    "rationale_type": "pattern_matching",
+    "rationale_confidence": 0.75
+  },
+  {
+    "sample_id": "sample_003",
+    "character_name": "Count of Monte Cristo",
+    "backstory": "A wealthy nobleman with mysterious origins",
+    "prediction": 1,
+    "prediction_label": "CONSISTENT",
+    "confidence": 0.91,
+    "rationale": "The backstory accurately reflects the Count's established persona as a wealthy, enigmatic figure. His mysterious background and noble bearing are consistently maintained throughout his interactions in the novel.",
+    "evidence_citations": [
+      "Chapter 30: Introduction as wealthy count",
+      "Chapter 35: Mysterious background hints",
+      "Chapter 40: Noble demeanor maintained"
+    ],
+    "rationale_type": "semantic_similarity",
+    "rationale_confidence": 0.88
+  }
+]
