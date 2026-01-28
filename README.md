@@ -1,6 +1,6 @@
 # Narrative-Consistency-Verification-System
 ## AI-Based Character Backstory Validation Using Natural Language Inference
-📌 Overview
+### 📌 Overview
 
 This project presents an AI-driven system to verify the consistency of character backstories with narrative evidence from novels.
 Using Natural Language Inference (NLI) and explainable AI techniques, the system determines whether a given backstory is consistent, contradictory, or neutral with respect to the story text.
@@ -40,21 +40,21 @@ This project addresses the challenge by automatically validating backstories aga
 
 ### The system follows an 8-phase pipeline:
 
-1.Text Ingestion – Load and preprocess raw novel text
+1. Text Ingestion – Load and preprocess raw novel text
 
-2.Character Context Extraction – Extract evidence passages with metadata
+2. Character Context Extraction – Extract evidence passages with metadata
 
-3.Chunking Strategy – Split long text into semantic chunks
+3. Chunking Strategy – Split long text into semantic chunks
 
-4.Feature Engineering – Enrich evidence with narrative signals
+4. Feature Engineering – Enrich evidence with narrative signals
 
-5.Model Selection – Choose optimal NLI model based on constraints
+5. Model Selection – Choose optimal NLI model based on constraints
 
-6.NLI Inference – Predict consistency between evidence and backstory
+6. NLI Inference – Predict consistency between evidence and backstory
 
-7.Rationale Generation – Generate explainable textual justifications
+7. Rationale Generation – Generate explainable textual justifications
 
-8.Interactive Backstory Checker – Live consistency verification
+8. Interactive Backstory Checker – Live consistency verification
 
 ### 🧪 Models Used
 Purpose	Model
